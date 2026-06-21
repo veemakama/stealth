@@ -60,7 +60,7 @@ export function EmailView({
   }, [email?.id]);
 
   return (
-    <section className="mail-reader-atmosphere relative m-3 ml-0 flex h-[calc(100vh-3.5rem-1.5rem)] flex-1 flex-col overflow-hidden rounded-[8px]">
+    <section data-testid="mail-reader" className="mail-reader-atmosphere relative m-3 ml-0 flex h-[calc(100vh-3.5rem-1.5rem)] flex-1 flex-col overflow-hidden rounded-[8px]">
       <AnimatePresence mode="wait">
         {!email ? (
           <motion.div

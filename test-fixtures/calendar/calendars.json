@@ -1,0 +1,5 @@
+[
+  { "id": "personal", "name": "Personal", "color": "#d5d7dc", "visible": true },
+  { "id": "work", "name": "Work", "color": "#8fa8ff", "visible": true },
+  { "id": "protocol", "name": "Protocol", "color": "#6ee7c7", "visible": true }
+]

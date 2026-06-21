@@ -152,6 +152,7 @@ export function Sidebar({
       </div>
 
       <motion.button
+        data-testid="compose-button"
         whileHover={{ y: -1 }}
         whileTap={{ scale: 0.97 }}
         onClick={onCompose}

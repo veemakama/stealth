@@ -263,7 +263,7 @@ export function Topbar({
         />
 
         {/* Settings */}
-        <IconBtn label="Settings" onClick={onOpenSettings}>
+        <IconBtn label="Settings" onClick={onOpenSettings} data-testid="settings-button">
           <Settings className="h-4 w-4" />
         </IconBtn>
 
@@ -393,14 +393,17 @@ function IconBtn({
   label,
   onClick,
   active,
+  "data-testid": dataTestId,
 }: {
   children: React.ReactNode;
   label: string;
   onClick?: () => void;
   active?: boolean;
+  "data-testid"?: string;
 }) {
   return (
     <motion.button
+      data-testid={dataTestId}
       whileTap={{ scale: 0.92 }}
       aria-label={label}
       onClick={onClick}

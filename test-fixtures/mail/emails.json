@@ -1,0 +1,109 @@
+[
+  {
+    "id": "fixture-mail-001",
+    "from": "Alex Chen",
+    "email": "alex*example.dev",
+    "subject": "Design system final review",
+    "preview": "Let's go over the latest iteration of the design system components.",
+    "body": "Hey,\n\nLet's go over the latest iteration of the design system components. I've attached the spec for the new mail list and reader views.\n\nAlex",
+    "time": "10:30 AM",
+    "unread": true,
+    "starred": false,
+    "folder": "inbox",
+    "labels": ["Design", "Priority"],
+    "attachments": [
+      { "name": "design-spec-v2.pdf", "size": "3.8 MB", "type": "pdf" }
+    ],
+    "avatarColor": "#5b6470"
+  },
+  {
+    "id": "fixture-mail-002",
+    "from": "Protocol Bot",
+    "email": "bot*stealth.network",
+    "subject": "Delivery receipt confirmed",
+    "preview": "Your message was successfully delivered with proof.",
+    "body": "Your message was successfully delivered with proof. The receipt is attached to this message.\n\n-- Stealth Protocol",
+    "time": "9:15 AM",
+    "unread": false,
+    "starred": true,
+    "folder": "receipts",
+    "labels": ["Receipt", "Verified"],
+    "avatarColor": "#7a8290"
+  },
+  {
+    "id": "fixture-mail-003",
+    "from": "Unknown Sender",
+    "email": "GABC...DEFG",
+    "subject": "Message request",
+    "preview": "This sender has paid postage and is waiting for your approval.",
+    "body": "This sender has paid postage and is waiting for your approval. You can choose to allow or block this sender.\n\n-- Stealth",
+    "time": "Yesterday",
+    "unread": true,
+    "starred": false,
+    "folder": "requests",
+    "labels": ["Request"],
+    "avatarColor": "#4d5560"
+  },
+  {
+    "id": "fixture-mail-004",
+    "from": "Jordan Lee",
+    "email": "jordan*calendar.app",
+    "subject": "Team sync tomorrow",
+    "preview": "Reminder about the team sync tomorrow at 11 AM.",
+    "body": "Reminder about the team sync tomorrow at 11 AM. Please come prepared with your updates.\n\nJordan",
+    "time": "Tomorrow",
+    "unread": false,
+    "starred": false,
+    "folder": "snoozed",
+    "labels": ["Snoozed"],
+    "avatarColor": "#9098a4",
+    "event": {
+      "id": "fixture-cal-001",
+      "title": "Team Sync",
+      "month": "June",
+      "day": "22",
+      "cadence": "Weekly",
+      "date": "2026-06-22",
+      "time": "11:00 AM",
+      "endTime": "11:45 AM",
+      "location": "Conference Room A",
+      "note": "Weekly team synchronization",
+      "calendar": "work",
+      "organizer": "Jordan Lee",
+      "meetingUrl": "https://meet.example.com/team-sync",
+      "days": [
+        { "label": "S", "date": "21" },
+        { "label": "M", "date": "22", "active": true },
+        { "label": "T", "date": "23" }
+      ]
+    }
+  },
+  {
+    "id": "fixture-mail-005",
+    "from": "You",
+    "email": "you*stealth.xyz",
+    "subject": "Re: Project update",
+    "preview": "Thanks for the update! Let's discuss next steps.",
+    "body": "Thanks for the update! Let's discuss next steps.\n\nYou",
+    "time": "Mon",
+    "unread": false,
+    "starred": false,
+    "folder": "sent",
+    "labels": ["Sent"],
+    "avatarColor": "#3d434d"
+  },
+  {
+    "id": "fixture-mail-006",
+    "from": "Security Team",
+    "email": "security*stealth.network",
+    "subject": "Your sign-in verification code",
+    "preview": "Use this code to complete your sign-in: 749 201",
+    "body": "Use this code to complete your sign-in: 749 201\n\nThis code expires in 10 minutes.\n\n-- Stealth Security",
+    "time": "Just now",
+    "unread": true,
+    "starred": false,
+    "folder": "verified",
+    "labels": ["Security", "OTP"],
+    "avatarColor": "#5b6470"
+  }
+]

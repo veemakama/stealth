@@ -41,6 +41,7 @@ export function SettingsModal({
             className="fixed inset-0 z-40 bg-black/50 backdrop-blur-sm"
           />
           <motion.div
+            data-testid="settings-modal"
             initial={{ opacity: 0, scale: 0.96, y: 8 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.96, y: 8 }}

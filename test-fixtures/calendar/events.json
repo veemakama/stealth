@@ -1,0 +1,45 @@
+[
+  {
+    "id": "fixture-cal-event-001",
+    "title": "Design Review",
+    "date": "2026-06-22",
+    "time": "10:00",
+    "endTime": "10:45",
+    "location": "Design Studio",
+    "note": "Final review of the new interface components",
+    "calendarId": "work",
+    "cadence": "One time",
+    "organizer": "Alex Chen",
+    "meetingUrl": "https://meet.example.com/design-review",
+    "response": "going",
+    "reminder": "15 minutes"
+  },
+  {
+    "id": "fixture-cal-event-002",
+    "title": "1:1 with Sam",
+    "date": "2026-06-23",
+    "time": "14:00",
+    "endTime": "14:30",
+    "location": "Quiet Room",
+    "note": "Weekly check-in",
+    "calendarId": "personal",
+    "cadence": "Weekly",
+    "organizer": "Sam Wilson",
+    "response": "going",
+    "reminder": "10 minutes"
+  },
+  {
+    "id": "fixture-cal-event-003",
+    "title": "Protocol Planning",
+    "date": "2026-06-24",
+    "time": "09:00",
+    "endTime": "10:00",
+    "location": "Stealth Ops",
+    "note": "Discuss roadmap items for Q3",
+    "calendarId": "protocol",
+    "cadence": "Monthly",
+    "organizer": "Stealth Team",
+    "response": "maybe",
+    "reminder": "30 minutes"
+  }
+]

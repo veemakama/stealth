@@ -140,6 +140,7 @@ export function RightPanel({
             })}
         </ul>
         <button
+          data-testid="open-calendar-button"
           onClick={() => onOpenCalendar()}
           className="mt-3 flex w-full items-center justify-between rounded-lg border border-white/8 bg-white/[0.025] px-3 py-2 text-[10px] text-muted-foreground transition hover:bg-white/[0.06] hover:text-foreground"
         >

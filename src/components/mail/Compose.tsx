@@ -193,6 +193,7 @@ export function Compose({
             className="fixed inset-0 z-40 bg-black/40 backdrop-blur-sm"
           />
           <motion.div
+            data-testid="compose-modal"
             initial={{ opacity: 0, y: 24, scale: 0.96, filter: "blur(8px)" }}
             animate={{ opacity: 1, y: 0, scale: 1, filter: "blur(0px)" }}
             exit={{ opacity: 0, y: 24, scale: 0.97, filter: "blur(6px)" }}

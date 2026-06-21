@@ -1,0 +1,6 @@
+[
+  { "id": "fixture-fb-001", "message": "Message archived successfully", "tone": "success" },
+  { "id": "fixture-fb-002", "message": "Settings saved", "tone": "neutral" },
+  { "id": "fixture-fb-003", "message": "This sender is not verified", "tone": "warning" },
+  { "id": "fixture-fb-004", "message": "Failed to send message", "tone": "danger" }
+]
